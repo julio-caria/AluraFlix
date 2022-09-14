@@ -41,6 +41,12 @@ body {
   right: 10px;
 }
 
+#listaFilmes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 #listaFilmes img {
   margin: 10px;
   max-height: 250px;
@@ -54,6 +60,10 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 15px;
+}
+
+.form-wrapper input:nth-of-type(1) {
+  margin-bottom: 12px;
 }
 
 .form-wrapper button {
@@ -71,4 +81,9 @@ body {
 
 .form-wrapper button:hover {
   opacity: 0.8;
+}
+
+.movieName {
+  color: var(--white-color);
+  font-size: 18px;
 }
