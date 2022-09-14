@@ -7,7 +7,8 @@ function adicionarFilme() {
     console.error("Endereço de Filme inválido!");
   }
   filme = "";
-  nomeFilme = "";
+  document.getElementById("nomeFilme").value = "";
+  document.getElementById("filme").value = "";
 }
 
 function listarFilmes(linkFilme, nomeFilme) {
